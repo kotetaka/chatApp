@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>chat copy 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>chat copy 4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>chat copy 6.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>chat copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>chat.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DA96932F164CCAC3000FC9DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA969373164CD1C7000FC9DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA9693B7164CD2DF000FC9DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA9693F9164CD2F9000FC9DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA96943B164CD438000FC9DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA9694B6164CD55A000FC9DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA969503164CF1FD000FC9DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DABFEE0615FCD1B300D5A858</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

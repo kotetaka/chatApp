@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA07DDAB16417AD9003BD94C /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = DA07DDAA16417AD9003BD94C /* normal.png */; };
+		DA0F55FD16514A2300D0FCBD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0F55FC16514A2300D0FCBD /* QuartzCore.framework */; };
+		DA1A864C1619865D00DDA99A /* manTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1A864A1619865D00DDA99A /* manTableViewController.xib */; };
+		DA1A864F161986CB00DDA99A /* manTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1A864E161986CB00DDA99A /* manTableCell.m */; };
+		DA6A2F3916F9564C00EE38B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6A2F3816F9564C00EE38B7 /* Default-568h@2x.png */; };
+		DA8E5C2615FDBDA70043F4F2 /* manViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8E5C2415FDBDA60043F4F2 /* manViewController.m */; };
+		DA8E5C2715FDBDA70043F4F2 /* manViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8E5C2515FDBDA70043F4F2 /* manViewController.xib */; };
+		DA91002B163A3EA700367B9C /* FaceWomanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA91002A163A3EA700367B9C /* FaceWomanViewController.m */; };
+		DA9280DC166BBF2C00A8CBFF /* selectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9280DB166BBF2C00A8CBFF /* selectViewController.m */; };
+		DA9280DF166BC1F300A8CBFF /* PositiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9280DE166BC1F300A8CBFF /* PositiveViewController.m */; };
+		DA9280E7166BC6C500A8CBFF /* FacemanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9280E6166BC6C500A8CBFF /* FacemanViewController.m */; };
+		DA9280F1166C888800A8CBFF /* PositiveWomanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9280F0166C888800A8CBFF /* PositiveWomanViewController.m */; };
+		DA9280F4166C88A900A8CBFF /* WomanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9280F3166C88A900A8CBFF /* WomanViewController.m */; };
+		DA936BAA167DFE2C00BE9E32 /* huki15_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA936BA9167DFE2C00BE9E32 /* huki15_2.png */; };
+		DA9418D41657FC5B009B184E /* btnB10.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418D21657FC5B009B184E /* btnB10.png */; };
+		DA9418D51657FC5B009B184E /* btnR10.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418D31657FC5B009B184E /* btnR10.png */; };
+		DA9418D81657FDB5009B184E /* btnB00.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418D71657FDB5009B184E /* btnB00.png */; };
+		DA9418DA1657FE5A009B184E /* btnG03.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418D91657FE5A009B184E /* btnG03.png */; };
+		DA9418DC1657FF31009B184E /* btnG07.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418DB1657FF31009B184E /* btnG07.png */; };
+		DA9418E016587924009B184E /* facemark_17.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418DF16587924009B184E /* facemark_17.png */; };
+		DA9418E21658BB9C009B184E /* smooth.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418E11658BB9C009B184E /* smooth.png */; };
+		DA9418E41658BBA9009B184E /* button_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418E31658BBA9009B184E /* button_texture.png */; };
+		DA9418E61658D527009B184E /* underPageBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418E51658D526009B184E /* underPageBackground.png */; };
+		DA9418E81658DA84009B184E /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418E71658DA84009B184E /* wood.png */; };
+		DA9418EE165936F6009B184E /* ikariman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418ED165936F6009B184E /* ikariman.png */; };
+		DA9418F0165937C9009B184E /* huki12.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418EF165937C9009B184E /* huki12.png */; };
+		DA9418F416594390009B184E /* huki13.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9418F31659438F009B184E /* huki13.png */; };
+		DA9525111647915D00FD8916 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = DA95250A1647915D00FD8916 /* base64.c */; };
+		DA9525121647915D00FD8916 /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95250D1647915D00FD8916 /* NSData+SRB64Additions.m */; };
+		DA9525131647915D00FD8916 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9525101647915D00FD8916 /* SRWebSocket.m */; };
+		DA952516164791EC00FD8916 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA952515164791EC00FD8916 /* CFNetwork.framework */; };
+		DA952518164791FC00FD8916 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA952517164791FC00FD8916 /* Security.framework */; };
+		DA95251A1647921600FD8916 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9525191647921600FD8916 /* libicucore.dylib */; };
+		DA96104B1626993E00356371 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9610491626993E00356371 /* MainStoryboard.storyboard */; };
+		DA96484E165A4C6F00C29ECE /* huki12_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA96484D165A4C6F00C29ECE /* huki12_2.png */; };
+		DA964850165A504E00C29ECE /* huki13_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA96484F165A504E00C29ECE /* huki13_2.png */; };
+		DA964852165A873600C29ECE /* huki14_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA964851165A873600C29ECE /* huki14_2.png */; };
+		DA965EF9164F7443008EACDB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA965EF7164F7443008EACDB /* MainStoryboard_iPad.storyboard */; };
+		DA969505164CF1FD000FC9DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFEE1715FCD1B300D5A858 /* main.m */; };
+		DA969506164CF1FD000FC9DD /* chatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFEE1B15FCD1B300D5A858 /* chatAppDelegate.m */; };
+		DA969507164CF1FD000FC9DD /* chatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFEE2115FCD1B300D5A858 /* chatViewController.m */; };
+		DA969508164CF1FD000FC9DD /* manViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8E5C2415FDBDA60043F4F2 /* manViewController.m */; };
+		DA969509164CF1FD000FC9DD /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABE1574161063760045D9B3 /* rootViewController.m */; };
+		DA96950B164CF1FD000FC9DD /* manTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1A864E161986CB00DDA99A /* manTableCell.m */; };
+		DA96950C164CF1FD000FC9DD /* FaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97BA7416287C82004EB3CB /* FaceViewController.m */; };
+		DA96950D164CF1FD000FC9DD /* FaceWomanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA91002A163A3EA700367B9C /* FaceWomanViewController.m */; };
+		DA96950E164CF1FD000FC9DD /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = DA95250A1647915D00FD8916 /* base64.c */; };
+		DA96950F164CF1FD000FC9DD /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95250D1647915D00FD8916 /* NSData+SRB64Additions.m */; };
+		DA969510164CF1FD000FC9DD /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9525101647915D00FD8916 /* SRWebSocket.m */; };
+		DA969512164CF1FD000FC9DD /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9525191647921600FD8916 /* libicucore.dylib */; };
+		DA969513164CF1FD000FC9DD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA952517164791FC00FD8916 /* Security.framework */; };
+		DA969514164CF1FD000FC9DD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA952515164791EC00FD8916 /* CFNetwork.framework */; };
+		DA969515164CF1FD000FC9DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABFEE0B15FCD1B300D5A858 /* UIKit.framework */; };
+		DA969516164CF1FD000FC9DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABFEE0D15FCD1B300D5A858 /* Foundation.framework */; };
+		DA969517164CF1FD000FC9DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABFEE0F15FCD1B300D5A858 /* CoreGraphics.framework */; };
+		DA969519164CF1FD000FC9DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DABFEE1415FCD1B300D5A858 /* InfoPlist.strings */; };
+		DA96951C164CF1FD000FC9DD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9610491626993E00356371 /* MainStoryboard.storyboard */; };
+		DA96951D164CF1FD000FC9DD /* ansinman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9C0FA8163EC052001FDD7F /* ansinman.png */; };
+		DA96951E164CF1FD000FC9DD /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9C0FAA163EC05E001FDD7F /* happy.png */; };
+		DA96951F164CF1FD000FC9DD /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = DA07DDAA16417AD9003BD94C /* normal.png */; };
+		DA969520164CF1FD000FC9DD /* kanasimiman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695CD1643D52F00F16D2B /* kanasimiman.png */; };
+		DA969521164CF1FD000FC9DD /* kouhunman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695CE1643D52F00F16D2B /* kouhunman.png */; };
+		DA969522164CF1FD000FC9DD /* manzokuman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695CF1643D52F00F16D2B /* manzokuman.png */; };
+		DA969523164CF1FD000FC9DD /* odorokima.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695D41643D53C00F16D2B /* odorokima.png */; };
+		DA969524164CF1FD000FC9DD /* rirakkusuman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695D51643D53C00F16D2B /* rirakkusuman.png */; };
+		DA969525164CF1FD000FC9DD /* zaiakukanman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695D81643D54400F16D2B /* zaiakukanman.png */; };
+		DA969527164CF1FD000FC9DD /* yuuutuman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695DC1643FC5C00F16D2B /* yuuutuman.png */; };
+		DA969528164CF1FD000FC9DD /* huyukaiman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695DE1643FC7300F16D2B /* huyukaiman.png */; };
+		DA969529164CF1FD000FC9DD /* kyouhuman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695E01643FC7A00F16D2B /* kyouhuman.png */; };
+		DA96952B164CF1FD000FC9DD /* kouhun.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695E716440FBB00F16D2B /* kouhun.png */; };
+		DA96952C164CF1FD000FC9DD /* kyouhu.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695E816440FBB00F16D2B /* kyouhu.png */; };
+		DA96952D164CF1FD000FC9DD /* odoroki.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695E916440FBB00F16D2B /* odoroki.png */; };
+		DA96952E164CF1FD000FC9DD /* ansin.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695EF16441ACA00F16D2B /* ansin.png */; };
+		DA96952F164CF1FD000FC9DD /* happywoman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695F016441ACA00F16D2B /* happywoman.png */; };
+		DA969530164CF1FD000FC9DD /* manzoku.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695F116441ACA00F16D2B /* manzoku.png */; };
+		DA969531164CF1FD000FC9DD /* rirakkusu.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695F216441ACA00F16D2B /* rirakkusu.png */; };
+		DA969532164CF1FD000FC9DD /* yuutu.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695F316441ACA00F16D2B /* yuutu.png */; };
+		DA969533164CF1FD000FC9DD /* zaiakukan.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695F416441ACA00F16D2B /* zaiakukan.png */; };
+		DA969534164CF1FD000FC9DD /* kanasimi.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695FB16441AD400F16D2B /* kanasimi.png */; };
+		DA969535164CF1FD000FC9DD /* huyukai.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695FD16441B8800F16D2B /* huyukai.png */; };
+		DA969536164CF1FD000FC9DD /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695FF16441E0E00F16D2B /* woman.png */; };
+		DA969547164CF1FE000FC9DD /* manViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA969545164CF1FE000FC9DD /* manViewController.xib */; };
+		DA969548164CF1FE000FC9DD /* manTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA969546164CF1FE000FC9DD /* manTableViewController.xib */; };
+		DA969549164CF1FE000FC9DD /* chatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9694F9164CD55B000FC9DD /* chatViewController.xib */; };
+		DA9695D01643D52F00F16D2B /* kanasimiman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695CD1643D52F00F16D2B /* kanasimiman.png */; };
+		DA9695D11643D52F00F16D2B /* kouhunman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695CE1643D52F00F16D2B /* kouhunman.png */; };
+		DA9695D21643D52F00F16D2B /* manzokuman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695CF1643D52F00F16D2B /* manzokuman.png */; };
+		DA9695D61643D53C00F16D2B /* odorokima.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695D41643D53C00F16D2B /* odorokima.png */; };
+		DA9695D71643D53C00F16D2B /* rirakkusuman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695D51643D53C00F16D2B /* rirakkusuman.png */; };
+		DA9695D91643D54400F16D2B /* zaiakukanman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695D81643D54400F16D2B /* zaiakukanman.png */; };
+		DA9695DD1643FC5C00F16D2B /* yuuutuman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695DC1643FC5C00F16D2B /* yuuutuman.png */; };
+		DA9695DF1643FC7300F16D2B /* huyukaiman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695DE1643FC7300F16D2B /* huyukaiman.png */; };
+		DA9695E11643FC7A00F16D2B /* kyouhuman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695E01643FC7A00F16D2B /* kyouhuman.png */; };
+		DA9695EB16440FBB00F16D2B /* kouhun.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695E716440FBB00F16D2B /* kouhun.png */; };
+		DA9695EC16440FBB00F16D2B /* kyouhu.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695E816440FBB00F16D2B /* kyouhu.png */; };
+		DA9695ED16440FBB00F16D2B /* odoroki.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695E916440FBB00F16D2B /* odoroki.png */; };
+		DA9695F516441ACA00F16D2B /* ansin.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695EF16441ACA00F16D2B /* ansin.png */; };
+		DA9695F616441ACA00F16D2B /* happywoman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695F016441ACA00F16D2B /* happywoman.png */; };
+		DA9695F716441ACA00F16D2B /* manzoku.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695F116441ACA00F16D2B /* manzoku.png */; };
+		DA9695F816441ACA00F16D2B /* rirakkusu.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695F216441ACA00F16D2B /* rirakkusu.png */; };
+		DA9695F916441ACA00F16D2B /* yuutu.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695F316441ACA00F16D2B /* yuutu.png */; };
+		DA9695FA16441ACA00F16D2B /* zaiakukan.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695F416441ACA00F16D2B /* zaiakukan.png */; };
+		DA9695FC16441AD400F16D2B /* kanasimi.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695FB16441AD400F16D2B /* kanasimi.png */; };
+		DA9695FE16441B8800F16D2B /* huyukai.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695FD16441B8800F16D2B /* huyukai.png */; };
+		DA96960016441E0E00F16D2B /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9695FF16441E0E00F16D2B /* woman.png */; };
+		DA97BA7516287C82004EB3CB /* FaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97BA7416287C82004EB3CB /* FaceViewController.m */; };
+		DA9C0FA9163EC052001FDD7F /* ansinman.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9C0FA8163EC052001FDD7F /* ansinman.png */; };
+		DA9C0FAB163EC05E001FDD7F /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9C0FAA163EC05E001FDD7F /* happy.png */; };
+		DABE1575161063760045D9B3 /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABE1574161063760045D9B3 /* rootViewController.m */; };
+		DABFEE0C15FCD1B300D5A858 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABFEE0B15FCD1B300D5A858 /* UIKit.framework */; };
+		DABFEE0E15FCD1B300D5A858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABFEE0D15FCD1B300D5A858 /* Foundation.framework */; };
+		DABFEE1015FCD1B300D5A858 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABFEE0F15FCD1B300D5A858 /* CoreGraphics.framework */; };
+		DABFEE1615FCD1B300D5A858 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DABFEE1415FCD1B300D5A858 /* InfoPlist.strings */; };
+		DABFEE1815FCD1B300D5A858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFEE1715FCD1B300D5A858 /* main.m */; };
+		DABFEE1C15FCD1B300D5A858 /* chatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFEE1B15FCD1B300D5A858 /* chatAppDelegate.m */; };
+		DABFEE2215FCD1B300D5A858 /* chatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABFEE2115FCD1B300D5A858 /* chatViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA07DDAA16417AD9003BD94C /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = normal.png; path = "../../../Dropbox/表情/normal.png"; sourceTree = "<group>"; };
+		DA0F55FC16514A2300D0FCBD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DA1A864A1619865D00DDA99A /* manTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = manTableViewController.xib; sourceTree = "<group>"; };
+		DA1A864D161986CB00DDA99A /* manTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = manTableCell.h; path = ../manTableCell.h; sourceTree = "<group>"; };
+		DA1A864E161986CB00DDA99A /* manTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = manTableCell.m; path = ../manTableCell.m; sourceTree = "<group>"; };
+		DA6A2F3816F9564C00EE38B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DA8E5C2315FDBDA60043F4F2 /* manViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = manViewController.h; path = ../manViewController.h; sourceTree = "<group>"; };
+		DA8E5C2415FDBDA60043F4F2 /* manViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = manViewController.m; path = ../manViewController.m; sourceTree = "<group>"; };
+		DA8E5C2515FDBDA70043F4F2 /* manViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = manViewController.xib; path = ../manViewController.xib; sourceTree = "<group>"; };
+		DA910029163A3EA600367B9C /* FaceWomanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceWomanViewController.h; sourceTree = "<group>"; };
+		DA91002A163A3EA700367B9C /* FaceWomanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceWomanViewController.m; sourceTree = "<group>"; };
+		DA9280DA166BBF2C00A8CBFF /* selectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectViewController.h; sourceTree = "<group>"; };
+		DA9280DB166BBF2C00A8CBFF /* selectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectViewController.m; sourceTree = "<group>"; };
+		DA9280DD166BC1F300A8CBFF /* PositiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositiveViewController.h; sourceTree = "<group>"; };
+		DA9280DE166BC1F300A8CBFF /* PositiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositiveViewController.m; sourceTree = "<group>"; };
+		DA9280E5166BC6C500A8CBFF /* FacemanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacemanViewController.h; sourceTree = "<group>"; };
+		DA9280E6166BC6C500A8CBFF /* FacemanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacemanViewController.m; sourceTree = "<group>"; };
+		DA9280EF166C888800A8CBFF /* PositiveWomanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositiveWomanViewController.h; sourceTree = "<group>"; };
+		DA9280F0166C888800A8CBFF /* PositiveWomanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositiveWomanViewController.m; sourceTree = "<group>"; };
+		DA9280F2166C88A900A8CBFF /* WomanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WomanViewController.h; sourceTree = "<group>"; };
+		DA9280F3166C88A900A8CBFF /* WomanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WomanViewController.m; sourceTree = "<group>"; };
+		DA936BA9167DFE2C00BE9E32 /* huki15_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huki15_2.png; path = "../../../Dropbox/吹き出し/huki15_2.png"; sourceTree = "<group>"; };
+		DA9418D21657FC5B009B184E /* btnB10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnB10.png; path = ../../../Downloads/btnB10.png; sourceTree = "<group>"; };
+		DA9418D31657FC5B009B184E /* btnR10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnR10.png; path = ../../../Downloads/btnR10.png; sourceTree = "<group>"; };
+		DA9418D71657FDB5009B184E /* btnB00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnB00.png; path = ../../../Downloads/btnB00.png; sourceTree = "<group>"; };
+		DA9418D91657FE5A009B184E /* btnG03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnG03.png; path = ../../../Downloads/btnG03.png; sourceTree = "<group>"; };
+		DA9418DB1657FF31009B184E /* btnG07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnG07.png; path = ../../../Downloads/btnG07.png; sourceTree = "<group>"; };
+		DA9418DF16587924009B184E /* facemark_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facemark_17.png; path = ../../../Downloads/facemark_17.png; sourceTree = "<group>"; };
+		DA9418E11658BB9C009B184E /* smooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smooth.png; path = ../../../Downloads/smooth.png; sourceTree = "<group>"; };
+		DA9418E31658BBA9009B184E /* button_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_texture.png; path = ../../../Downloads/button_texture.png; sourceTree = "<group>"; };
+		DA9418E51658D526009B184E /* underPageBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underPageBackground.png; sourceTree = "<group>"; };
+		DA9418E71658DA84009B184E /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		DA9418ED165936F6009B184E /* ikariman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ikariman.png; path = "../../../Dropbox/吹き出し/ikariman.png"; sourceTree = "<group>"; };
+		DA9418EF165937C9009B184E /* huki12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huki12.png; path = "../../../Dropbox/吹き出し/huki12.png"; sourceTree = "<group>"; };
+		DA9418F31659438F009B184E /* huki13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huki13.png; path = "../../../Dropbox/吹き出し/huki13.png"; sourceTree = "<group>"; };
+		DA95250A1647915D00FD8916 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		DA95250B1647915D00FD8916 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		DA95250C1647915D00FD8916 /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		DA95250D1647915D00FD8916 /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		DA95250E1647915D00FD8916 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		DA95250F1647915D00FD8916 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		DA9525101647915D00FD8916 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		DA952515164791EC00FD8916 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DA952517164791FC00FD8916 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DA9525191647921600FD8916 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		DA96104A1626993E00356371 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DA96484D165A4C6F00C29ECE /* huki12_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huki12_2.png; path = "../../../Dropbox/吹き出し/huki12_2.png"; sourceTree = "<group>"; };
+		DA96484F165A504E00C29ECE /* huki13_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huki13_2.png; path = "../../../Dropbox/吹き出し/huki13_2.png"; sourceTree = "<group>"; };
+		DA964851165A873600C29ECE /* huki14_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huki14_2.png; path = "../../../Dropbox/吹き出し/huki14_2.png"; sourceTree = "<group>"; };
+		DA965EF8164F7443008EACDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DA9694F8164CD55A000FC9DD /* chat copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "chat copy-Info.plist"; path = "/Users/oderatakashi/Desktop/chat/chat copy-Info.plist"; sourceTree = "<absolute>"; };
+		DA9694F9164CD55B000FC9DD /* chatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = chatViewController.xib; path = "Resources-iPad/chatViewController.xib"; sourceTree = "<group>"; };
+		DA969542164CF1FD000FC9DD /* chat-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chat-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA969545164CF1FE000FC9DD /* manViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = manViewController.xib; path = "Resources-iPad/manViewController.xib"; sourceTree = "<group>"; };
+		DA969546164CF1FE000FC9DD /* manTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = manTableViewController.xib; path = "Resources-iPad/chat/manTableViewController.xib"; sourceTree = "<group>"; };
+		DA9695CD1643D52F00F16D2B /* kanasimiman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kanasimiman.png; path = "../../../Dropbox/表情/kanasimiman.png"; sourceTree = "<group>"; };
+		DA9695CE1643D52F00F16D2B /* kouhunman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kouhunman.png; path = "../../../Dropbox/表情/kouhunman.png"; sourceTree = "<group>"; };
+		DA9695CF1643D52F00F16D2B /* manzokuman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = manzokuman.png; path = "../../../Dropbox/表情/manzokuman.png"; sourceTree = "<group>"; };
+		DA9695D41643D53C00F16D2B /* odorokima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = odorokima.png; path = "../../../Dropbox/表情/odorokima.png"; sourceTree = "<group>"; };
+		DA9695D51643D53C00F16D2B /* rirakkusuman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rirakkusuman.png; path = "../../../Dropbox/表情/rirakkusuman.png"; sourceTree = "<group>"; };
+		DA9695D81643D54400F16D2B /* zaiakukanman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zaiakukanman.png; path = "../../../Dropbox/表情/zaiakukanman.png"; sourceTree = "<group>"; };
+		DA9695DC1643FC5C00F16D2B /* yuuutuman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuuutuman.png; path = "../../../Dropbox/表情/yuuutuman.png"; sourceTree = "<group>"; };
+		DA9695DE1643FC7300F16D2B /* huyukaiman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huyukaiman.png; path = "../../../Dropbox/表情/huyukaiman.png"; sourceTree = "<group>"; };
+		DA9695E01643FC7A00F16D2B /* kyouhuman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kyouhuman.png; path = "../../../Dropbox/表情/kyouhuman.png"; sourceTree = "<group>"; };
+		DA9695E716440FBB00F16D2B /* kouhun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kouhun.png; path = "../../../Dropbox/表情/kouhun.png"; sourceTree = "<group>"; };
+		DA9695E816440FBB00F16D2B /* kyouhu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kyouhu.png; path = "../../../Dropbox/表情/kyouhu.png"; sourceTree = "<group>"; };
+		DA9695E916440FBB00F16D2B /* odoroki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = odoroki.png; path = "../../../Dropbox/表情/odoroki.png"; sourceTree = "<group>"; };
+		DA9695EF16441ACA00F16D2B /* ansin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ansin.png; path = "../../../Dropbox/表情/ansin.png"; sourceTree = "<group>"; };
+		DA9695F016441ACA00F16D2B /* happywoman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = happywoman.png; path = "../../../Dropbox/表情/happywoman.png"; sourceTree = "<group>"; };
+		DA9695F116441ACA00F16D2B /* manzoku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = manzoku.png; path = "../../../Dropbox/表情/manzoku.png"; sourceTree = "<group>"; };
+		DA9695F216441ACA00F16D2B /* rirakkusu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rirakkusu.png; path = "../../../Dropbox/表情/rirakkusu.png"; sourceTree = "<group>"; };
+		DA9695F316441ACA00F16D2B /* yuutu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuutu.png; path = "../../../Dropbox/表情/yuutu.png"; sourceTree = "<group>"; };
+		DA9695F416441ACA00F16D2B /* zaiakukan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zaiakukan.png; path = "../../../Dropbox/表情/zaiakukan.png"; sourceTree = "<group>"; };
+		DA9695FB16441AD400F16D2B /* kanasimi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kanasimi.png; path = "../../../Dropbox/表情/kanasimi.png"; sourceTree = "<group>"; };
+		DA9695FD16441B8800F16D2B /* huyukai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huyukai.png; path = "../../../Dropbox/表情/huyukai.png"; sourceTree = "<group>"; };
+		DA9695FF16441E0E00F16D2B /* woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = woman.png; path = "../../../Dropbox/表情/woman.png"; sourceTree = "<group>"; };
+		DA97BA7316287C82004EB3CB /* FaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceViewController.h; sourceTree = "<group>"; };
+		DA97BA7416287C82004EB3CB /* FaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceViewController.m; sourceTree = "<group>"; };
+		DA9C0FA8163EC052001FDD7F /* ansinman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ansinman.png; path = "../../../Dropbox/表情/ansinman.png"; sourceTree = "<group>"; };
+		DA9C0FAA163EC05E001FDD7F /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = happy.png; path = "../../../Dropbox/表情/happy.png"; sourceTree = "<group>"; };
+		DABE1573161063760045D9B3 /* rootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootViewController.h; sourceTree = "<group>"; };
+		DABE1574161063760045D9B3 /* rootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootViewController.m; sourceTree = "<group>"; };
+		DABFEE0715FCD1B300D5A858 /* chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABFEE0B15FCD1B300D5A858 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DABFEE0D15FCD1B300D5A858 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DABFEE0F15FCD1B300D5A858 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DABFEE1315FCD1B300D5A858 /* chat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chat-Info.plist"; sourceTree = "<group>"; };
+		DABFEE1515FCD1B300D5A858 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DABFEE1715FCD1B300D5A858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DABFEE1915FCD1B300D5A858 /* chat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chat-Prefix.pch"; sourceTree = "<group>"; };
+		DABFEE1A15FCD1B300D5A858 /* chatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatAppDelegate.h; sourceTree = "<group>"; };
+		DABFEE1B15FCD1B300D5A858 /* chatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatAppDelegate.m; sourceTree = "<group>"; };
+		DABFEE2015FCD1B300D5A858 /* chatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatViewController.h; sourceTree = "<group>"; };
+		DABFEE2115FCD1B300D5A858 /* chatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA969511164CF1FD000FC9DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA969512164CF1FD000FC9DD /* libicucore.dylib in Frameworks */,
+				DA969513164CF1FD000FC9DD /* Security.framework in Frameworks */,
+				DA969514164CF1FD000FC9DD /* CFNetwork.framework in Frameworks */,
+				DA969515164CF1FD000FC9DD /* UIKit.framework in Frameworks */,
+				DA969516164CF1FD000FC9DD /* Foundation.framework in Frameworks */,
+				DA969517164CF1FD000FC9DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABFEE0415FCD1B300D5A858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0F55FD16514A2300D0FCBD /* QuartzCore.framework in Frameworks */,
+				DA95251A1647921600FD8916 /* libicucore.dylib in Frameworks */,
+				DA952518164791FC00FD8916 /* Security.framework in Frameworks */,
+				DA952516164791EC00FD8916 /* CFNetwork.framework in Frameworks */,
+				DABFEE0C15FCD1B300D5A858 /* UIKit.framework in Frameworks */,
+				DABFEE0E15FCD1B300D5A858 /* Foundation.framework in Frameworks */,
+				DABFEE1015FCD1B300D5A858 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA9525091647915D00FD8916 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				DA95250A1647915D00FD8916 /* base64.c */,
+				DA95250B1647915D00FD8916 /* base64.h */,
+				DA95250C1647915D00FD8916 /* NSData+SRB64Additions.h */,
+				DA95250D1647915D00FD8916 /* NSData+SRB64Additions.m */,
+				DA95250E1647915D00FD8916 /* SocketRocket-Prefix.pch */,
+				DA95250F1647915D00FD8916 /* SRWebSocket.h */,
+				DA9525101647915D00FD8916 /* SRWebSocket.m */,
+			);
+			name = SocketRocket;
+			path = ../gitdownload/SocketRocket/SocketRocket;
+			sourceTree = "<group>";
+		};
+		DA9694F7164CD55A000FC9DD /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				DA969545164CF1FE000FC9DD /* manViewController.xib */,
+				DA969546164CF1FE000FC9DD /* manTableViewController.xib */,
+				DA9694F9164CD55B000FC9DD /* chatViewController.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		DABFEDFC15FCD1B300D5A858 = {
+			isa = PBXGroup;
+			children = (
+				DA6A2F3816F9564C00EE38B7 /* Default-568h@2x.png */,
+				DA0F55FC16514A2300D0FCBD /* QuartzCore.framework */,
+				DA9694F7164CD55A000FC9DD /* Resources-iPad */,
+				DA9525091647915D00FD8916 /* SocketRocket */,
+				DABFEE1115FCD1B300D5A858 /* chat */,
+				DABFEE1215FCD1B300D5A858 /* Supporting Files */,
+				DABFEE0A15FCD1B300D5A858 /* Frameworks */,
+				DABFEE0815FCD1B300D5A858 /* Products */,
+				DA9694F8164CD55A000FC9DD /* chat copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		DABFEE0815FCD1B300D5A858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABFEE0715FCD1B300D5A858 /* chat.app */,
+				DA969542164CF1FD000FC9DD /* chat-iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABFEE0A15FCD1B300D5A858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA952515164791EC00FD8916 /* CFNetwork.framework */,
+				DA9525191647921600FD8916 /* libicucore.dylib */,
+				DA952517164791FC00FD8916 /* Security.framework */,
+				DABFEE0B15FCD1B300D5A858 /* UIKit.framework */,
+				DABFEE0D15FCD1B300D5A858 /* Foundation.framework */,
+				DABFEE0F15FCD1B300D5A858 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DABFEE1115FCD1B300D5A858 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				DABFEE1A15FCD1B300D5A858 /* chatAppDelegate.h */,
+				DABFEE1B15FCD1B300D5A858 /* chatAppDelegate.m */,
+				DA9610491626993E00356371 /* MainStoryboard.storyboard */,
+				DA9280DA166BBF2C00A8CBFF /* selectViewController.h */,
+				DA965EF7164F7443008EACDB /* MainStoryboard_iPad.storyboard */,
+				DA9280DB166BBF2C00A8CBFF /* selectViewController.m */,
+				DABFEE2015FCD1B300D5A858 /* chatViewController.h */,
+				DABFEE2115FCD1B300D5A858 /* chatViewController.m */,
+				DA1A864E161986CB00DDA99A /* manTableCell.m */,
+				DA1A864D161986CB00DDA99A /* manTableCell.h */,
+				DABFEE3615FCE15200D5A858 /* avatar(man) */,
+				DABFEE2D15FCD59D00D5A858 /* avatar(woman) */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		DABFEE1215FCD1B300D5A858 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA9418E11658BB9C009B184E /* smooth.png */,
+				DA9418E71658DA84009B184E /* wood.png */,
+				DA9418E31658BBA9009B184E /* button_texture.png */,
+				DA964851165A873600C29ECE /* huki14_2.png */,
+				DA96484D165A4C6F00C29ECE /* huki12_2.png */,
+				DA96484F165A504E00C29ECE /* huki13_2.png */,
+				DA9418E51658D526009B184E /* underPageBackground.png */,
+				DA9418D21657FC5B009B184E /* btnB10.png */,
+				DA9418DF16587924009B184E /* facemark_17.png */,
+				DA9418DB1657FF31009B184E /* btnG07.png */,
+				DA9418D91657FE5A009B184E /* btnG03.png */,
+				DA9418D31657FC5B009B184E /* btnR10.png */,
+				DA9418D71657FDB5009B184E /* btnB00.png */,
+				DA9695D81643D54400F16D2B /* zaiakukanman.png */,
+				DA07DDAA16417AD9003BD94C /* normal.png */,
+				DA9695CD1643D52F00F16D2B /* kanasimiman.png */,
+				DA9695DC1643FC5C00F16D2B /* yuuutuman.png */,
+				DA9695D41643D53C00F16D2B /* odorokima.png */,
+				DA9695D51643D53C00F16D2B /* rirakkusuman.png */,
+				DA9695E01643FC7A00F16D2B /* kyouhuman.png */,
+				DA9695CE1643D52F00F16D2B /* kouhunman.png */,
+				DA9695DE1643FC7300F16D2B /* huyukaiman.png */,
+				DA9418EF165937C9009B184E /* huki12.png */,
+				DA9695CF1643D52F00F16D2B /* manzokuman.png */,
+				DA9695FB16441AD400F16D2B /* kanasimi.png */,
+				DA9C0FA8163EC052001FDD7F /* ansinman.png */,
+				DA9695FF16441E0E00F16D2B /* woman.png */,
+				DA9695EF16441ACA00F16D2B /* ansin.png */,
+				DA9695F016441ACA00F16D2B /* happywoman.png */,
+				DA9418ED165936F6009B184E /* ikariman.png */,
+				DA9695FD16441B8800F16D2B /* huyukai.png */,
+				DA9695F116441ACA00F16D2B /* manzoku.png */,
+				DA9695F216441ACA00F16D2B /* rirakkusu.png */,
+				DA9695F316441ACA00F16D2B /* yuutu.png */,
+				DA9695F416441ACA00F16D2B /* zaiakukan.png */,
+				DA9418F31659438F009B184E /* huki13.png */,
+				DA9C0FAA163EC05E001FDD7F /* happy.png */,
+				DA936BA9167DFE2C00BE9E32 /* huki15_2.png */,
+				DA9695E716440FBB00F16D2B /* kouhun.png */,
+				DA9695E816440FBB00F16D2B /* kyouhu.png */,
+				DA9695E916440FBB00F16D2B /* odoroki.png */,
+				DABFEE1315FCD1B300D5A858 /* chat-Info.plist */,
+				DABFEE1415FCD1B300D5A858 /* InfoPlist.strings */,
+				DABFEE1715FCD1B300D5A858 /* main.m */,
+				DABFEE1915FCD1B300D5A858 /* chat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = chat;
+			sourceTree = "<group>";
+		};
+		DABFEE2D15FCD59D00D5A858 /* avatar(woman) */ = {
+			isa = PBXGroup;
+			children = (
+				DABE1573161063760045D9B3 /* rootViewController.h */,
+				DABE1574161063760045D9B3 /* rootViewController.m */,
+				DA910029163A3EA600367B9C /* FaceWomanViewController.h */,
+				DA91002A163A3EA700367B9C /* FaceWomanViewController.m */,
+				DA9280F2166C88A900A8CBFF /* WomanViewController.h */,
+				DA9280F3166C88A900A8CBFF /* WomanViewController.m */,
+				DA9280EF166C888800A8CBFF /* PositiveWomanViewController.h */,
+				DA9280F0166C888800A8CBFF /* PositiveWomanViewController.m */,
+			);
+			name = "avatar(woman)";
+			sourceTree = "<group>";
+		};
+		DABFEE3615FCE15200D5A858 /* avatar(man) */ = {
+			isa = PBXGroup;
+			children = (
+				DA8E5C2315FDBDA60043F4F2 /* manViewController.h */,
+				DA8E5C2415FDBDA60043F4F2 /* manViewController.m */,
+				DA97BA7316287C82004EB3CB /* FaceViewController.h */,
+				DA97BA7416287C82004EB3CB /* FaceViewController.m */,
+				DA9280E5166BC6C500A8CBFF /* FacemanViewController.h */,
+				DA9280E6166BC6C500A8CBFF /* FacemanViewController.m */,
+				DA9280DD166BC1F300A8CBFF /* PositiveViewController.h */,
+				DA9280DE166BC1F300A8CBFF /* PositiveViewController.m */,
+				DA1A864A1619865D00DDA99A /* manTableViewController.xib */,
+				DA8E5C2515FDBDA70043F4F2 /* manViewController.xib */,
+			);
+			name = "avatar(man)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA969503164CF1FD000FC9DD /* chat-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA96953F164CF1FD000FC9DD /* Build configuration list for PBXNativeTarget "chat-iPad" */;
+			buildPhases = (
+				DA969504164CF1FD000FC9DD /* Sources */,
+				DA969511164CF1FD000FC9DD /* Frameworks */,
+				DA969518164CF1FD000FC9DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chat-iPad";
+			productName = chat;
+			productReference = DA969542164CF1FD000FC9DD /* chat-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DABFEE0615FCD1B300D5A858 /* chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABFEE2515FCD1B300D5A858 /* Build configuration list for PBXNativeTarget "chat" */;
+			buildPhases = (
+				DABFEE0315FCD1B300D5A858 /* Sources */,
+				DABFEE0415FCD1B300D5A858 /* Frameworks */,
+				DABFEE0515FCD1B300D5A858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chat;
+			productName = chat;
+			productReference = DABFEE0715FCD1B300D5A858 /* chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABFEDFE15FCD1B300D5A858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = chat;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "小寺 貴士";
+			};
+			buildConfigurationList = DABFEE0115FCD1B300D5A858 /* Build configuration list for PBXProject "chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DABFEDFC15FCD1B300D5A858;
+			productRefGroup = DABFEE0815FCD1B300D5A858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABFEE0615FCD1B300D5A858 /* chat */,
+				DA969503164CF1FD000FC9DD /* chat-iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA969518164CF1FD000FC9DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA969519164CF1FD000FC9DD /* InfoPlist.strings in Resources */,
+				DA96951C164CF1FD000FC9DD /* MainStoryboard.storyboard in Resources */,
+				DA96951D164CF1FD000FC9DD /* ansinman.png in Resources */,
+				DA96951E164CF1FD000FC9DD /* happy.png in Resources */,
+				DA96951F164CF1FD000FC9DD /* normal.png in Resources */,
+				DA969520164CF1FD000FC9DD /* kanasimiman.png in Resources */,
+				DA969521164CF1FD000FC9DD /* kouhunman.png in Resources */,
+				DA969522164CF1FD000FC9DD /* manzokuman.png in Resources */,
+				DA969523164CF1FD000FC9DD /* odorokima.png in Resources */,
+				DA969524164CF1FD000FC9DD /* rirakkusuman.png in Resources */,
+				DA969525164CF1FD000FC9DD /* zaiakukanman.png in Resources */,
+				DA969527164CF1FD000FC9DD /* yuuutuman.png in Resources */,
+				DA969528164CF1FD000FC9DD /* huyukaiman.png in Resources */,
+				DA969529164CF1FD000FC9DD /* kyouhuman.png in Resources */,
+				DA96952B164CF1FD000FC9DD /* kouhun.png in Resources */,
+				DA96952C164CF1FD000FC9DD /* kyouhu.png in Resources */,
+				DA96952D164CF1FD000FC9DD /* odoroki.png in Resources */,
+				DA96952E164CF1FD000FC9DD /* ansin.png in Resources */,
+				DA96952F164CF1FD000FC9DD /* happywoman.png in Resources */,
+				DA969530164CF1FD000FC9DD /* manzoku.png in Resources */,
+				DA969531164CF1FD000FC9DD /* rirakkusu.png in Resources */,
+				DA969532164CF1FD000FC9DD /* yuutu.png in Resources */,
+				DA969533164CF1FD000FC9DD /* zaiakukan.png in Resources */,
+				DA969534164CF1FD000FC9DD /* kanasimi.png in Resources */,
+				DA969535164CF1FD000FC9DD /* huyukai.png in Resources */,
+				DA969536164CF1FD000FC9DD /* woman.png in Resources */,
+				DA969547164CF1FE000FC9DD /* manViewController.xib in Resources */,
+				DA969548164CF1FE000FC9DD /* manTableViewController.xib in Resources */,
+				DA969549164CF1FE000FC9DD /* chatViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABFEE0515FCD1B300D5A858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABFEE1615FCD1B300D5A858 /* InfoPlist.strings in Resources */,
+				DA8E5C2715FDBDA70043F4F2 /* manViewController.xib in Resources */,
+				DA1A864C1619865D00DDA99A /* manTableViewController.xib in Resources */,
+				DA96104B1626993E00356371 /* MainStoryboard.storyboard in Resources */,
+				DA9C0FA9163EC052001FDD7F /* ansinman.png in Resources */,
+				DA9C0FAB163EC05E001FDD7F /* happy.png in Resources */,
+				DA07DDAB16417AD9003BD94C /* normal.png in Resources */,
+				DA9695D01643D52F00F16D2B /* kanasimiman.png in Resources */,
+				DA9695D11643D52F00F16D2B /* kouhunman.png in Resources */,
+				DA9695D21643D52F00F16D2B /* manzokuman.png in Resources */,
+				DA9695D61643D53C00F16D2B /* odorokima.png in Resources */,
+				DA9695D71643D53C00F16D2B /* rirakkusuman.png in Resources */,
+				DA9695D91643D54400F16D2B /* zaiakukanman.png in Resources */,
+				DA9695DD1643FC5C00F16D2B /* yuuutuman.png in Resources */,
+				DA9695DF1643FC7300F16D2B /* huyukaiman.png in Resources */,
+				DA9695E11643FC7A00F16D2B /* kyouhuman.png in Resources */,
+				DA9695EB16440FBB00F16D2B /* kouhun.png in Resources */,
+				DA9695EC16440FBB00F16D2B /* kyouhu.png in Resources */,
+				DA9695ED16440FBB00F16D2B /* odoroki.png in Resources */,
+				DA9695F516441ACA00F16D2B /* ansin.png in Resources */,
+				DA9695F616441ACA00F16D2B /* happywoman.png in Resources */,
+				DA9695F716441ACA00F16D2B /* manzoku.png in Resources */,
+				DA9695F816441ACA00F16D2B /* rirakkusu.png in Resources */,
+				DA9695F916441ACA00F16D2B /* yuutu.png in Resources */,
+				DA9695FA16441ACA00F16D2B /* zaiakukan.png in Resources */,
+				DA9695FC16441AD400F16D2B /* kanasimi.png in Resources */,
+				DA9695FE16441B8800F16D2B /* huyukai.png in Resources */,
+				DA96960016441E0E00F16D2B /* woman.png in Resources */,
+				DA965EF9164F7443008EACDB /* MainStoryboard_iPad.storyboard in Resources */,
+				DA9418D41657FC5B009B184E /* btnB10.png in Resources */,
+				DA9418D51657FC5B009B184E /* btnR10.png in Resources */,
+				DA9418D81657FDB5009B184E /* btnB00.png in Resources */,
+				DA9418DA1657FE5A009B184E /* btnG03.png in Resources */,
+				DA9418DC1657FF31009B184E /* btnG07.png in Resources */,
+				DA9418E016587924009B184E /* facemark_17.png in Resources */,
+				DA9418E21658BB9C009B184E /* smooth.png in Resources */,
+				DA9418E41658BBA9009B184E /* button_texture.png in Resources */,
+				DA9418E61658D527009B184E /* underPageBackground.png in Resources */,
+				DA9418E81658DA84009B184E /* wood.png in Resources */,
+				DA9418EE165936F6009B184E /* ikariman.png in Resources */,
+				DA9418F0165937C9009B184E /* huki12.png in Resources */,
+				DA9418F416594390009B184E /* huki13.png in Resources */,
+				DA96484E165A4C6F00C29ECE /* huki12_2.png in Resources */,
+				DA964850165A504E00C29ECE /* huki13_2.png in Resources */,
+				DA964852165A873600C29ECE /* huki14_2.png in Resources */,
+				DA936BAA167DFE2C00BE9E32 /* huki15_2.png in Resources */,
+				DA6A2F3916F9564C00EE38B7 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA969504164CF1FD000FC9DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA969505164CF1FD000FC9DD /* main.m in Sources */,
+				DA969506164CF1FD000FC9DD /* chatAppDelegate.m in Sources */,
+				DA969507164CF1FD000FC9DD /* chatViewController.m in Sources */,
+				DA969508164CF1FD000FC9DD /* manViewController.m in Sources */,
+				DA969509164CF1FD000FC9DD /* rootViewController.m in Sources */,
+				DA96950B164CF1FD000FC9DD /* manTableCell.m in Sources */,
+				DA96950C164CF1FD000FC9DD /* FaceViewController.m in Sources */,
+				DA96950D164CF1FD000FC9DD /* FaceWomanViewController.m in Sources */,
+				DA96950E164CF1FD000FC9DD /* base64.c in Sources */,
+				DA96950F164CF1FD000FC9DD /* NSData+SRB64Additions.m in Sources */,
+				DA969510164CF1FD000FC9DD /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABFEE0315FCD1B300D5A858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABFEE1815FCD1B300D5A858 /* main.m in Sources */,
+				DABFEE1C15FCD1B300D5A858 /* chatAppDelegate.m in Sources */,
+				DABFEE2215FCD1B300D5A858 /* chatViewController.m in Sources */,
+				DA8E5C2615FDBDA70043F4F2 /* manViewController.m in Sources */,
+				DABE1575161063760045D9B3 /* rootViewController.m in Sources */,
+				DA1A864F161986CB00DDA99A /* manTableCell.m in Sources */,
+				DA97BA7516287C82004EB3CB /* FaceViewController.m in Sources */,
+				DA91002B163A3EA700367B9C /* FaceWomanViewController.m in Sources */,
+				DA9525111647915D00FD8916 /* base64.c in Sources */,
+				DA9525121647915D00FD8916 /* NSData+SRB64Additions.m in Sources */,
+				DA9525131647915D00FD8916 /* SRWebSocket.m in Sources */,
+				DA9280DC166BBF2C00A8CBFF /* selectViewController.m in Sources */,
+				DA9280DF166BC1F300A8CBFF /* PositiveViewController.m in Sources */,
+				DA9280E7166BC6C500A8CBFF /* FacemanViewController.m in Sources */,
+				DA9280F1166C888800A8CBFF /* PositiveWomanViewController.m in Sources */,
+				DA9280F4166C88A900A8CBFF /* WomanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA9610491626993E00356371 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA96104A1626993E00356371 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DA965EF7164F7443008EACDB /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA965EF8164F7443008EACDB /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DABFEE1415FCD1B300D5A858 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABFEE1515FCD1B300D5A858 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA969540164CF1FD000FC9DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 貴士 小寺 (Z9UFXBAW4M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 貴士 小寺 (Z9UFXBAW4M)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chat/chat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					IPAD_VERSION,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SocketRocket";
+				INFOPLIST_FILE = "chat copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "chat-iPad";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA969541164CF1FD000FC9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 貴士 小寺 (Z9UFXBAW4M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 貴士 小寺 (Z9UFXBAW4M)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chat/chat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IPAD_VERSION;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SocketRocket";
+				INFOPLIST_FILE = "chat copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "chat-iPad";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DABFEE2315FCD1B300D5A858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 貴士 小寺 (Z9UFXBAW4M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 貴士 小寺 (Z9UFXBAW4M)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos5.1;
+			};
+			name = Debug;
+		};
+		DABFEE2415FCD1B300D5A858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 貴士 小寺 (Z9UFXBAW4M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 貴士 小寺 (Z9UFXBAW4M)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos5.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABFEE2615FCD1B300D5A858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 貴士 小寺 (Z9UFXBAW4M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 貴士 小寺 (Z9UFXBAW4M)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chat/chat-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SocketRocket/**";
+				INFOPLIST_FILE = "chat/chat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = iphoneos6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DABFEE2715FCD1B300D5A858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 貴士 小寺 (Z9UFXBAW4M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 貴士 小寺 (Z9UFXBAW4M)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chat/chat-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SocketRocket/**";
+				INFOPLIST_FILE = "chat/chat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = iphoneos6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA96953F164CF1FD000FC9DD /* Build configuration list for PBXNativeTarget "chat-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA969540164CF1FD000FC9DD /* Debug */,
+				DA969541164CF1FD000FC9DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABFEE0115FCD1B300D5A858 /* Build configuration list for PBXProject "chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABFEE2315FCD1B300D5A858 /* Debug */,
+				DABFEE2415FCD1B300D5A858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABFEE2515FCD1B300D5A858 /* Build configuration list for PBXNativeTarget "chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABFEE2615FCD1B300D5A858 /* Debug */,
+				DABFEE2715FCD1B300D5A858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DABFEDFE15FCD1B300D5A858 /* Project object */;
+}
